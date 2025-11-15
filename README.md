@@ -11,3 +11,6 @@ Neovim provides great built-in APIs for counting lines, byte, words and so forth
 - File type: such as ignoring code blocks and hyphens for bulleted lists in markdown files.
 - File format: such as ignoring front-matter in markdown files.
 - Natural language: such as proper sentence segmentation for various languages.
+
+Resources:
+https://neovim.io/doc/user/vimfn.html#wordcount()
