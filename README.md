@@ -1,5 +1,5 @@
 > [!WARNING]
-> This project is working in progress. When MVP is merged to the main branch, a release will be published, so star if interested and stay tuned!
+> This project is working in progress. When MVP is merged to the main branch, a release will be published, so star the repo if interested and stay tuned!
 
 # count.nvim
 
