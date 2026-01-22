@@ -1,12 +1,11 @@
+> [!WARNING]
+> This project is working in progress. When MVP is merged to the main branch, a release will be published, so star if interested and stay tuned!
+
 # count.nvim
 
-This repository has just been created, and currently "work-in-progress" for the MVP release. No functional code exists yet.
+A Neovim plugin to extend the text counting capabilities.
 
-Provide extended sentence, word, and char counting functionalities beyond the Neovim's built-in APIs.
-
----
-
-Neovim provides great built-in APIs for counting lines, byte, words and so forth, however, they are quite basic and extending the functionalities is technically possible but not straightforward. This plugin aims to extends that by providing APIs for various counting functionalities, and mainly being aware of the following.
+Neovim already provides great built-in APIs for counting lines, byte, and words, however, they are quite basic and extending the functionalities is not always straightforward. Count.nvim aims to extends that by providing APIs for various counting functionalities, and mainly being aware of the following.
 
 - File type: such as ignoring code blocks and hyphens for bulleted lists in markdown files.
 - File format: such as ignoring front-matter in markdown files.
