@@ -32,7 +32,7 @@ M.paragraphs = function(options) end
 M.read = function(options) end
 M.custom = function(options) end
 
--- Each functiont take some of the keys from the below
+-- Each function take some of the keys from the below
 local example = {
     object = 0, -- 0, specific bufnr, or specific text
     visual = { "all" }, -- select from "all", "char", "line", "block", or false.
