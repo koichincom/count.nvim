@@ -1,12 +1,15 @@
 > [!WARNING]
 > This project is working in progress. When MVP is merged to the main branch, a release will be published, so star the repo if interested and stay tuned!
 
-# count.nvim
-
-A Neovim plugin to extend the text counting capabilities.
+<div align="center">
+  <h1>count.nvim</h1>
+  <p>A Neovim plugin to extend the text counting capabilities.</p>
+</div
 
 Neovim already provides great built-in APIs for counting lines, byte, and words, however, they are quite basic and extending the functionalities is not always straightforward. Count.nvim aims to extends that by providing APIs for various counting functionalities, and mainly being aware of the following.
 
 - File type: such as ignoring code blocks and hyphens for bulleted lists in markdown files.
 - File format: such as ignoring front-matter in markdown files.
 - Natural language: such as proper sentence segmentation for various languages.
+
+It has a core library, written in Zig, to parse the text, exclude the unwanted parts, and count the metrics. It's now being developed privately, and will be open-sourced as a general Zig library with C ABI once the MVP is ready.
