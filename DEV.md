@@ -26,3 +26,5 @@ A Neovim plugin providing filetype-aware, high-performance text counting that go
 - `vim.api.nvim_win_get_cursor()` - Cursor position
 - `vim.fn.getpos("'<")`, `vim.fn.getpos("'>")` - Visual selection
 - `vim.api.nvim_buf_get_changedtick()` - Cache invalidation
+
+To use the Zig library for text processing, write the build.zig and build.zig.zon to use the build.zig in the library and compile in this repo when it's run.
