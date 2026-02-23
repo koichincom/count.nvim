@@ -4,9 +4,9 @@
 <div align="center">
   <h1>count.nvim</h1>
   <p>A Neovim plugin to extend the text counting capabilities</p>
-</div
+</div>
 
----
+## About
 
 Neovim already provides great built-in APIs for counting lines, byte, and words. However, they are quite basic and extending the functionalities is not always straightforward. Count.nvim aims to extend that by providing APIs for various counting functionalities, and mainly being aware of the following.
 
