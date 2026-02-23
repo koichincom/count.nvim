@@ -1,0 +1,3 @@
+# Development Plan
+
+prose-gauge is a Zig library for counting human-readable text in Markdown and other files, built on syntax-aware parsers to exclude non-readable text such as code blocks, frontmatter, and metadata. Use md4c as the dependency (Markdown parser) and prioritize the Markdown support first, then qmd, rmd, mdx, and other format support later. API interface is simple; taking the file extension, file content, and output type as input, and returning the counters of the human-readable text. Counters include word, character, sentence, paragraph, byte, and line, and can be extended later. CJK support using unicode segmentation algorithms is planned but not prioritized.
